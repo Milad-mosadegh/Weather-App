@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(/images/Back.jpg);
+    /* background-position: center; */
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+nav{
+    background: rgba(43, 123, 173, 0.479);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#time{
+    padding: 5px;
+}
+
+#all{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.box{
+    background: rgba(51, 51, 51, 0.39);
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.479);
+}
+
+.box h1{
+    text-align: center;
+}
+.fetch{
+    margin: 5px auto;
+    text-align: center;
+}
+
+
+
+#city-name{
+    padding: 30px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.halat{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+   
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-around;
+    
+   
+}
+
+.combine{
+    display: none;
+    transition: 1s;
+    
+}
+.myKir{
+    border-radius: 10%;
+    transition: .5s;
+    transform: rotate(360deg);
+
+}
+
+
+
+
+
+
+
+
+    
+
+.clear{
+    background-image : url(/images/clear.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.clouds{
+    background-image : url(/images/cloudy.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.rain{
+    background-image : url(/images/rainy.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media(max-width:600px){
+    .col{
+        font-size: 12px;
+    }
+}
